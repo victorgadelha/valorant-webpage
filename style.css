@@ -23,49 +23,48 @@ header {
     height: 60rem;
     background-image: url('imagens/second-cover-white.jpg');
     background-size: cover;
+    
 }
 
-header ul {
+nav ul {
     width: 100%;
     position: fixed;
     display: flex;
 
+    justify-content: end;
     align-items: center;
     list-style: none;
     text-transform: uppercase;
 
-    background-color: var(--black);
-    color: var(--white);
+    font-weight: 800;
+    background-color: transparent;
+    color: var(--black);
 
+    margin-top: 2rem;
     height: 7rem;
-    gap: 2rem;
+    gap: 1rem;
 }
 
-header ul li{
+nav ul li{
     cursor: pointer;
 }
 
-header ul li:first-child{
-    margin-left: 2rem;
+nav ul li:nth-child(3) {
+    margin-right: 5rem;
 }
 
-header ul li:nth-child(3){
-    margin-right: 73rem;
-}
-
-header ul li:nth-child(4){
-    margin-left: 1rem;
-}
-
-header ul li:last-child{
+nav ul li:last-child{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10rem;
-    height: 3rem;
+    margin-right:2.4rem;
+
     background-color: var(--red);
     color: var(--white);
     border-radius: 4px;
+
+    width: 10rem;
+    height: 3rem;
 }
 
 
